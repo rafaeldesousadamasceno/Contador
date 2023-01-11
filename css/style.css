@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+    color: rgb(226, 148, 32);
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 50pt;
+}
+
+#display {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60pt;
+    text-align: center;
+    color: rgb(211, 153, 44);
+    margin: auto;
+    border-color: black;
+}
+
+#botoes {
+    grid-column: auto;
+    margin: 15px;
+}
+
+button {
+    font-size: 30pt;
+    border-width: 2pt;
+    border-radius: 5px;
+}
+
+button:hover {
+    font-size: 30pt;
+    border-width: 2pt;
+    border-radius: 5px;
+    border-color: rgb(211, 153, 44);
+    color: rgb(211, 153, 44);
+}
+
+footer {
+    font-size: 20pt;
+}
