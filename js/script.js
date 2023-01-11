@@ -1,16 +1,17 @@
 let valorAtual = document.getElementById("display");
+let valor = parseInt(valorAtual.value)
 
 function decrementar() {
-    valorAtual.value--;
-    valorAtual.innerText = valorAtual.value;
+    valor--;
+    valorAtual.innerText = valor;
 }
 
 function resetar() {
-    valorAtual.value = 0;
-    valorAtual.innerText = valorAtual.value;
+    valor = 0;
+    valorAtual.innerText = valor;
 }
 
 function incrementar() {
-    valorAtual.value++;
-    valorAtual.innerText = valorAtual.value;
+    valor++;
+    valorAtual.innerText = valor;
 }
