@@ -1,5 +1,4 @@
 let valorAtual = document.getElementById("display");
-let valor = parseInt(valorAtual.value)
 
 function decrementar() {
     valor--;
