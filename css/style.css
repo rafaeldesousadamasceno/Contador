@@ -1,40 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
-    background-color: black;
-    color: rgb(226, 148, 32);
-    margin: auto;
-    padding: 20px;
+    background-image: url('../img/bg-006.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
     text-align: center;
-    font-size: 50pt;
+    margin-top: 20px;
+    color: #FFF;
+}
+
+section {
+    display: block;
+    width: 400px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+}
+
+#container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 2rem;
+    background-color: #7A307780;
+    text-align: center;
 }
 
 #display {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 60pt;
-    text-align: center;
-    color: rgb(211, 153, 44);
-    margin: auto;
-    border-color: black;
-}
-
-#botoes {
-    grid-column: auto;
-    margin: 15px;
+    font-size: 4rem;
 }
 
 button {
-    font-size: 30pt;
-    border-width: 2pt;
-    border-radius: 5px;
+    background-color: transparent;
+    border-color: #272262;
+    color: #FFF;
+    padding: 7px;
+    margin-top: 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+    width: 100%;
 }
 
 button:hover {
-    font-size: 30pt;
-    border-width: 2pt;
-    border-radius: 5px;
-    border-color: rgb(211, 153, 44);
-    color: rgb(211, 153, 44);
+    background-color: #272262;
+    color: #FFF;
+}
+
+hr {
+    margin-top: 20px;
 }
 
 footer {
-    font-size: 20pt;
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    background-color: #272262;
+    height: 40px;    
+    width: 100%;
+}
+
+footer p {
+    color: #FFF;
+    padding-top: 10px;
 }

@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
 </head>
 <body onload="resetar()">
     <header>
         <h1>Contador</h1>
     </header>
-    <section>
-        <div id="display">
-        </div>
-        <div id="botoes" class="botoes">
-            <button onclick="decrementar()">Decrementar</button>
-            <button onclick="resetar()">Zerar</button>
+    <section id="container">
+        <div>
             <button onclick="incrementar()">Incrementar</button>
+            <div id="display"></div>
+            <button onclick="decrementar()">Decrementar</button>
+            <hr>
+            <button onclick="resetar()">Zerar</button>            
         </div>
     </section>
     <footer>
         <p>Rafael Damasceno &copy; 2023</p>
     </footer>
 
-    <script src="./js/script.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 </html>
